@@ -1,0 +1,28 @@
+.doacao {
+    width: 90%;
+    background-color: rgb(249, 216, 187);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 20px;
+    max-width: 850px;
+}
+
+h1,
+p,
+h3,
+h4 {
+    text-align: center;
+    margin-top: 0;
+}
+
+img{
+    margin: auto;
+    display: block;
+    width: 50%;
+    margin-bottom: 2%;
+}
+
+.heart{
+    width: 85px;
+}
