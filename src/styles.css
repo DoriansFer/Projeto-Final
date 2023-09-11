@@ -92,6 +92,12 @@ hr {
     width: 85%;
 }
 
+.home{
+    height: 22px;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+
 /*Links*/
 a {
     color: black;
@@ -117,8 +123,8 @@ a:active {
     background-color: rgb(228, 243, 218);
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
-    max-width: 500px;
+    padding: 50px;
+    max-width: 850px;
 }
 
 .vidro-image {
@@ -130,63 +136,3 @@ a:active {
 
 
 
-/*Coleta Seletiva*/
-
-.coleta {
-    width: 90%;
-    background-color: rgb(213, 213, 213);
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    max-width: 500px;
-}
-
-.coleta-image {
-    width: 300px;
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-top: 15px;
-
-}
-
-/*Fontes Cor*/
-
-.Azul {
-    color: blue;
-}
-
-.Vermelho {
-    color: red;
-}
-
-.Verde {
-    color: green;
-}
-
-.Amarelo {
-    color: rgb(255, 230, 0);
-}
-
-.Preto {
-    color: black;
-}
-
-.Laranja {
-    color: orange;
-}
-
-.Branco {
-    color: white;
-}
-
-.Roxo {
-    color: purple;
-}
-
-.Marrom {
-    color: brown;
-}
-
-.Cinza {
-    color: gray;
-}

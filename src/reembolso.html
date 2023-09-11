@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reembolso.css">
+    <title>Calculadora de Venda de Produtos</title>
+</head>
+
+<body>
+    <div class="calculadora">
+        <h1>Calculadora de Venda de Produtos</h1>
+        <div class="input">
+            <label for="product-type">Tipo de Produto:</label>
+            <select id="product-type">
+                <option value="compressor">Compressor Refrigeração</option>
+                <option value="motor">Motor Elétrico</option>
+                <option value="ferro">Ferro Níquel</option>
+                <option value="mel">Cobre Mel</option>
+                <option value="misto">Cobre Misto</option>
+                <option value="latinha">Alumínio Latinha</option>
+                <option value="natural">Alumínio Perfil Natural Limpo</option>
+                <option value="pintado">Alumínio Perfil Pintado limpo</option>
+                <option value="panela">Alumínio Panela(s/ cabo e ferro)</option>
+                <option value="bloco">Bloco(Limpo)</option>
+                <option value="inox">Aço Inox</option>
+                <option value="chaparia">Alumínio Chaparia</option>
+                <option value="metal">Metal</option>
+                <option value="bronze">Bronze</option>
+                <option value="bateria">Bateria kg</option>
+                <option value="sucata"> Sucata Ferro Miuda / Pesada</option>
+                <option value="motorG">Motor de Geladeira G.(unidade)</option>
+                <option value="radiador">Radiador de Alumínio e Cobre s / Ferro</option>
+                <option value="chumbo">Chumbo manta</option>
+                <option value="carro"> Bateria(Carro 60 ah)/unidade</option>
+                <option value="caminhao">Bateria(Caminhão 150 ah)/unidade</option>
+                <option value="sucataF">Sucata Ferro Fundido (acima 300 kgs)/unidade</option>
+                <option value="mae">Placa Mãe</option>
+                <option value="notebook">Placa de Notebook</option>
+                <option value="pino">Processador pino</option>
+                <option value="comum">Processador Comum</option>
+                <option value="video">Placa vídeo/unidade</option>
+                <option value="eletrico">Motor Elétrico</option>
+                <option value="memoria">Pente de Memória</option>
+                <option value="garrafa">Garrafa Pet</option>
+                <option value="papelao">Papelão</option>
+                <option value="jornal">Jormal</option>
+            </select>
+        </div>
+        <div class="input">
+            <label for="quantity">Quantidade (Kg):</label>
+            <input type="number" id="quantity" min="1">
+        </div>
+        <div> <button id="calcularButton" class="botao"> Calcular </button></div>
+        <div class="resultado">
+            <p>Valor a Receber:</p>
+            <span id="result-value">R$ 0.00</span>
+        </div>
+
+        <a href="index.html"><img class="home" src="/imagens/house.png"></a>
+    </div>
+    <p>Esses preços são baseados no site <a href="https://litorallimpo.com.br/precos/">Litoral Limpo</a>:</p>
+    <div class="table">
+        <h3>Sucata Ferrosa e Não-Ferrosa</h3>
+        <img src="/imagens/tabela1.png">
+    </div>
+    <div class="table">
+        <h3>Sucata de Lixo Eletrônico</h3>
+        <img src="/imagens/tabela2.png">
+    </div>
+
+    <script src="calculos.js"></script>
+</body>
+
+</html>

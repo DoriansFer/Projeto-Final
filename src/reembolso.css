@@ -1,0 +1,63 @@
+.calculadora {
+    width: 90%;
+    background-color: rgb(181, 218, 203);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 850px;
+}
+
+.input {
+    text-align: center;
+    margin: 2%;
+}
+
+.resultado {
+    text-align: center;
+    margin: 2%;
+}
+
+.botao {
+    margin-left: 50%;
+}
+
+.home {
+    height: 22px;
+    margin-right: 50%;
+    margin-top: 25px;
+    position: relative;
+}
+
+.table {
+    text-align: center;
+    display: grid;
+    width: 90%;
+    padding: 5px;
+    margin: auto;
+    display: block;
+}
+
+h3 {
+    color: rgb(0, 133, 82)
+}
+
+p,
+h1 {
+    text-align: center;
+}
+
+a {
+    color: rgb(0, 133, 82);
+}
+
+a:visited {
+    color: rgb(0, 133, 82);
+}
+
+a:hover {
+    color: rgb(0, 133, 82);
+}
+
+a:active {
+    color: rgb(0, 133, 82);
+}

@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/*Coleta Seletiva*/
+
+.coleta {
+    width: 90%;
+    background-color: rgb(213, 213, 213);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 900px;
+}
+
+.coleta-image {
+    width: 300px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 15px;
+
+}
+
+.image {
+    width: 200px;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+}
+
+
+/*Fontes Cor*/
+
+.Azul {
+    color: blue;
+}
+
+.Vermelho {
+    color: red;
+}
+
+.Verde {
+    color: green;
+}
+
+.Amarelo {
+    color: rgb(255, 230, 0);
+}
+
+.Preto {
+    color: black;
+}
+
+.Laranja {
+    color: orange;
+}
+
+.Branco {
+    color: white;
+}
+
+.Roxo {
+    color: purple;
+}
+
+.Marrom {
+    color: brown;
+}
+
+.Cinza {
+    color: gray;
+}
+
+.home {
+    height: 22px;
+    margin-right: 15px;
+    margin-top: 25px;
+    position: relative;
+}
+
+/*Coluna*/
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Duas colunas de largura igual */
+    gap: 10px;
+    /* Espaço entre as colunas */
+    position: relative;
+
+}
+
+.column {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 15px;
+
+}
+
+.image {
+    text-align: center;
+
+}
+
+.img {
+    width: 400px;
+}
+
+h3 {
+    margin-top: 5px;
+    font-size: 13px;
+    margin-left: 50%;
+    width: 100%;
+}
