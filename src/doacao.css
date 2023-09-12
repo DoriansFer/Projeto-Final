@@ -16,13 +16,45 @@ h4 {
     margin-top: 0;
 }
 
-img{
+img {
     margin: auto;
     display: block;
     width: 50%;
     margin-bottom: 2%;
 }
 
-.heart{
+.heart {
     width: 85px;
+}
+
+.home {
+    height: 22px;
+    width: auto;
+
+    margin-top: 25px;
+    position: relative;
+}
+
+.formulario {
+    padding: 5px;
+    margin-top: 2px;
+}
+
+.botao {
+    margin-top: 10px;
+}
+
+.buttom {
+    margin: auto;
+    display: block;
+}
+
+fieldset {
+    width: 50%;
+    margin: auto;
+
+}
+
+.teste {
+    margin-top: 20px;
 }

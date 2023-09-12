@@ -26,5 +26,88 @@
             normal na vida do ser humano, e em alguns casos pode ocorrer mais de uma vez. São nesses momentos que você
             pode realizar uma ação de doação. Pegue aquelas roupas que estão em bom estado, mas que não combinam mais
             com seu novo eu, e doe para que outra pessoa possa ter a oportunidade de se encontrar em um estilo.</p>
+
+        <p>Abaixo, disponibilizamos um formulário onde você pode informar detalhes sobre as roupas que deseja doar. Após
+            o preenchimento, um voluntário será designado para retirá-las no endereço que você fornecer.</p>
+
+        <fieldset>
+            <legend> Dados </legend>
+            <div class="formulario">
+                <label for="nome"> Nome: </label>
+                <input type="text" id="nome" placeholder="Digite seu nome aqui" />
+            </div>
+            <div class="formulario">
+                <label for="email"> E-mail: </label>
+                <input type="text" id="email" name="email" autocomplete="off" placeholder="Digite seu e-mail" />
+            </div>
+            <div class="formulario">
+                <label for="data"> Data de Nascimento: </label>
+                <input type="date" id="data" name="data" placeholder="Ex: DD/MM/AA" />
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend> Endereço de entrega </legend>
+            <div class="formulario">
+                <label for="rua"> Rua: </label>
+                <input type="text" id="rua" name="rua" placeholder="Ex: Rua 123" />
+            </div>
+            <div class="formulario">
+                <label for="cep"> Cep: </label>
+                <input type="text" id="cep" name="cep" placeholder="Ex: 00000-000" />
+            </div>
+            <div class="formulario">
+                <label for="cep"> Número: </label>
+                <input type="text" id="numero" name="numero" placeholder="Ex: 123 ou S/N" />
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend> Roupas </legend>
+            <div class="formulario">
+                <label> Tipo de roupa:
+                    <select id="roupas">
+                        <option value="selecione"> selecione </option>
+                        <option value="blusa"> Blusa/ Camiseta </option>
+                        <option value="vestido"> Vestido </option>
+                        <option value="saia"> Saia </option>
+                        <option value="short"> Shorts/ bermudas </option>
+                        <option value="calca"> Calça </option>
+                        <option value="casaco"> Casaco/ Moletom </option>
+                        <option value="tenis"> Tênis/ Sapato/ Sandálias/ Saltos/ Sapatilhas </option>
+                        <option value="outros"> outros </option>
+                    </select>
+                </label>
+            </div>
+            <div class="formulario">
+                <label> Tamanho:
+                    <select id="tamanho">
+                        <option value="selecione"> selecione </option>
+                        <option value="pp"> PP </option>
+                        <option value="p"> P </option>
+                        <option value="m"> M </option>
+                        <option value="g"> G </option>
+                        <option value="gg"> GG </option>
+                        <option value="g1"> G1 </option>
+                        <option value="g2"> G2 </option>
+                        <option value="g3"> G3 </option>
+                        <option value="num1"> Númeração 34 ao 38 </option>
+                        <option value="num2"> Númeração 40 ao 44 </option>
+                        <option value="num3"> Númeração 46 ao 50 </option>
+                    </select>
+                </label>
+            </div>
+        </fieldset>
+        <div class="botao">
+            <button class="buttom" id="botao">Enviar</button>
+        </div>
+
+        <div id="teste" class="teste"></div>
+
+        <a href="index.html"><img class="home" src="/imagens/house.png"></a>
     </div>
+
+
 </body>
+<script src="doacao.js"></script>
+
+</html>

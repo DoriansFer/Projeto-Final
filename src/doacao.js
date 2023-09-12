@@ -1,40 +1,22 @@
 class Pessoa {
-    nome;
-    #dataDeNascimento;
-    #email;
-    tamanhoC; // tamanho de calças/saias e afins
-    tamanhoB; // tamanho de blusas
-    #endereco;
-
-    constructor(nome, dataDeNascimento, email, tamanhoC, tamanhoB, endereco) {
-        this.nome = nome;
-        this.#dataDeNascimento = dataDeNascimento;
-        this.#email = email;
-        this.tamanhoC = tamanhoC;
-        this.tamanhoB = tamanhoB;
-        this.#endereco = endereco;
+    constructor() {
+        this.nameInput = document.querySelector("#nome");
+        this.testeDiv = document.querySelector("#teste");
+        this.enviarButton = document.querySelector("#botao");
+        this.enviarButton.addEventListener("click", this.enviar.bind(this));
+        this.dataDeNascimento = document.querySelector("#data");
+        this.email = document.querySelector("#email");
+        this.tamanho = document.querySelector("#tamanho");
+        this.roupa = document.querySelector("#roupas");
+        this.endereco = [document.querySelector("#rua"), document.querySelector("#cep"), document.querySelector("#numero")];
     }
 
-    get dataDeNascimento() {
-        return this.#dataDeNascimento;
-    }
-    set dataDeNascimento(newData) {
-        return this.#dataDeNascimento = newData;
-    }
 
-    get email() {
-        return this.#email;
-    }
-    set email(newEmail) {
-        return this.#email = newEmail;
-    }
-    get endereco() {
-        return this.#endereco
-    }
-    set endereco(newEndereco) {
-        return this.#endereco = newEndereco;
+    enviar() {
+        const result = this.nameInput.value;
+        this.testeDiv.textContent = (`${result}, obrigada pelas informações. O mais breve possível, enviaremos um voluntário no seu endereço para realizar o recolhimento das doações.`);
     }
 
 }
 
-// nao esquecer de instanciar
+const doacao = new Pessoa();   
