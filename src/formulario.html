@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário para doação</title>
+    <link href="formulario.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="/imagens/Polish_20230910_231505074.png" />
+</head>
+
+<body>
+
+    <div class="forms">
+        <div class="caixa-forms">
+            <span class="titulo">
+                Formulário:
+            </span>
+
+            <div class="campo">
+                <input class="input100" type="text" name="nome" id="nome" placeholder="Nome">
+                <span class="focus-input100"></span>
+            </div>
+            <div class="campo">
+                <input class="input100" type="date" id="data" name="data" placeholder="Ex: DD/MM/AA">
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                <input class="input100" type="text" id="email" name=" email" placeholder="Email">
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="campo">
+                <input class="input100" type="text" id="rua" name="rua" placeholder="Endereço">
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="campo">
+                <input class="input100" type="text" id="numero" name="numero" placeholder="N.º">
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="campo">
+                <input class="inputcep1" type="text" id="cep" name="cep" size="5" maxlength="5" placeholder="00000"> -
+                <input class="inputcep" type="text" id="cep2" name="cep2" size="3" maxlength="3" placeholder="000">
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="campo">
+                <textarea id="roupas" class="inputextarea" rows="5" cols="40" maxlength="1000"
+                    placeholder="Ex: Blusa, tamanho P. / Sapato, tamanho 42"></textarea>
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="divBotao">
+                <button class="botao" id="botao">
+                    Enviar
+                </button>
+                <a href="index.html"><img class="home" src="/imagens/house.png"></a>
+            </div>
+
+            <div id="teste" class="teste"></div>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="doacao.js"></script>
+</body>
+
+</html>

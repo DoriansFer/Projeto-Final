@@ -8,13 +8,17 @@ class Pessoa {
         this.email = document.querySelector("#email");
         this.tamanho = document.querySelector("#tamanho");
         this.roupa = document.querySelector("#roupas");
-        this.endereco = [document.querySelector("#rua"), document.querySelector("#cep"), document.querySelector("#numero")];
+        this.endereco = [document.querySelector("#rua"), document.querySelector("#cep"), document.querySelector("#cep2"), document.querySelector("#numero")];
     }
 
 
     enviar() {
         const result = this.nameInput.value;
-        this.testeDiv.textContent = (`${result}, obrigada pelas informações. O mais breve possível, enviaremos um voluntário no seu endereço para realizar o recolhimento das doações.`);
+        const rua = this.endereco[0].value;
+        const cep = this.endereco[1].value;
+        const cep1 = this.endereco[2].value;
+        const num = this.endereco[3].value;
+        this.testeDiv.textContent = (`${result}, obrigada pelas informações. O mais breve possível, enviaremos um voluntário para realizar o recolhimento das doações no endereço a seguir: ${rua}, ${num}, ${cep}-${cep1}.`);
     }
 
 }

@@ -35,19 +35,9 @@ img {
     position: relative;
 }
 
-.formulario {
-    padding: 5px;
-    margin-top: 2px;
-}
 
-.botao {
-    margin-top: 10px;
-}
 
-.buttom {
-    margin: auto;
-    display: block;
-}
+
 
 fieldset {
     width: 50%;
@@ -55,6 +45,3 @@ fieldset {
 
 }
 
-.teste {
-    margin-top: 20px;
-}
