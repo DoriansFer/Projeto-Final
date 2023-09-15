@@ -1,6 +1,6 @@
 <h1 align="center"> Projeto Final - Descarte consciente </h1> 
 
-<img src="./imagens/readme/2.png">
+<img src="./imagens/readme/semear2.png">
 
 O site possui informações importantes sobre a reciclagem e a importância da doação.
 
