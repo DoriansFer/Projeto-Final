@@ -203,4 +203,4 @@ resultado:
 
 
 
-<img src="./imagens/readme/semear.png" width="100%" height="70px">
+<img src="./imagens/readme/semear.png" width="100%" height="100px">
