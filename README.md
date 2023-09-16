@@ -30,7 +30,7 @@ class Pessoa {
 
 ```
 
-Também incluímos uma calculadora que permite estimar o retorno financeiro que a reciclagem pode proporcionar:
+Também incluí uma calculadora que permite estimar o retorno financeiro que a reciclagem pode proporcionar:
 
 <img src ="./imagens/readme/1.png" width="100%">
 
@@ -200,6 +200,8 @@ resultado:
 - [Pontos de coleta de vidro em SP](https://www.abcdoabc.com.br/abc/noticia/sao-paulo-amplia-pontos-coleta-vidro-impulsionar-reciclagem-208811): Endereços de ponto de coleta, fornecidos por ABC Do ABC
 - [Coleta Seletiva](https://www.i9ce.com.br/coleta-seletiva/): Informações sobre os itens permitidos para reciclagem, fornecidos por I9 Consultoria
 - [Quais são os benefícios da reciclagem?](https://blog.pix.com.br/beneficios-da-reciclagem/#:~:text=A%20reciclagem%20usa%20menos%20energia,g%C3%A1s%20metano%20dos%20aterros%20sanit%C3%A1rios.): Texto inspirado em Blog Pix.
+
+- [Link da Apresentação](https://www.canva.com/design/DAFuj1UZ1Zo/JdehqCjx6mgcstsd3lNeqA/edit?utm_content=DAFuj1UZ1Zo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton): Slides da apresentação
 
 
 
